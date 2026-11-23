@@ -1,6 +1,3 @@
-`ifndef DFF_TRANSACTION_SV
-`define DFF_TRANSACTION_SV
-
 class transaction;
     rand bit d;
     int unsigned id;
@@ -15,5 +12,3 @@ class observation;
     logic q;
     int unsigned cycle;
 endclass
-
-`endif
